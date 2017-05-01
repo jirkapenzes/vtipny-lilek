@@ -1,3 +1,3 @@
 # Eggplant fun page
 
-Go to [vtipnylilek.cz](https://www.vtipnylilek.cz)!
+Go to [vtipnylilek.cz](http://www.vtipnylilek.cz)!
