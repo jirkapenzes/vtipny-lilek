@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Vtipný lilek</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  </head>
+  <body>
+    <div class="container" style="max-width: 600px;">
+        <div class="page-header">
+            <h1>Pozoruhodný lilek<small>, též znám i jako baklažán</small></h1>
+        </div>
+        <div class="lead">
+            <p>
+                Lilek je známý také pod názvem baklažán. Jedná se o zeleninu s mnohostranným použitím. 
+                Existuje více odrůd lilku, ale ta nejznámější je podlouhlého tvaru a má lesklou hladkou 
+                slupku tmavofialové barvy. Dužina je bílá a měkká, obsahuje světlehnědá semínka. 
+                Lilek má původ v Číně nebo Indii a do Evropy se dostal ve 13. století.
+            </p>
+            <p>
+                V kuchyni se lilek používá při přípravě mnoha pokrmů. Lilky lze péci, vařit smažit, 
+                grilovat, zapékat s náplní nebo z nich vyrobit kaši. V některých národních pokrmech 
+                (např. musaka) je lilek nepostradatelný.
+            </p>            
+            <p>
+                Lilek má také svou stránku na <a href="https://cs.wikipedia.org/wiki/Lilek">české Wikipedii</a> 
+                a ještě obsáhlejší info je možné nalézt na <a href="https://en.wikipedia.org/wiki/Eggplant"> anglické Wikipedii</a>.
+            </p>
+            <p>
+                Zdroj textu: <a href="http://cojeto.superia.cz/rostliny/lilek.php">"Co je co?"</a>. 
+            </p>
+        </div>
+        <div class="thumbnail">
+            <img id="eggplant">
+        </div>
+
+        <div class="lead">
+            With love for eggplant by <a href="https://twitter.com/jirkapenzes">@jirkapenzes</a> 
+        </div>
+
+        <script type="text/javascript">
+            var eggplants = ["1.jpg", "2.jpg", "3.jpg", "4.png", "5.gif", 
+                        "6.jpg", "7.gif", "8.png", "9.png"];
+
+            var image = document.getElementById("eggplant");
+            var imageName = eggplants[Math.floor(Math.random() * eggplants.length)];
+
+            image.src = "eggplants/" + imageName;
+        </script
+    </div>
+  </body>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</html>
